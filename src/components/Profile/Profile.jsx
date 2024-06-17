@@ -3,7 +3,7 @@ const Profile = ({name,tag,location,avatar, stats}) => { return (<div>
     <div>
       <img
         src= {avatar}
-        alt="User avatar"
+        alt="User avatar"   width="100"
       />
       <p>{name}</p>
       <p>@{tag}</p>
